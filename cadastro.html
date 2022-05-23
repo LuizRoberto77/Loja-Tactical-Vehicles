@@ -1,0 +1,36 @@
+<!DOCTYPE html>	
+<html lang="pt-br">
+<head>
+	<title>Loja Tactical Vehicles - Cadastro</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="estilo.css">
+	<script src="js/jquery.js"></script>
+</head>
+<body>
+	
+
+	<div id="conteudo">
+	<h1>Loja Tactical Vehicles - Cadastro</h1>
+	<form action="produtos.php" method="post" name="f1">
+	
+	<h2>Insira seus dados</h2>
+	
+	
+	<p class="dados">Nome: <br></p>
+	<p> <input type="text" name="nome" required><br></p>
+	<p class="dados">Email: <br></p>
+	<p><input type="email" name="emailc" required></p>
+	<p class="dados">Senha: <br>
+	<p><input type="password" name="senhac" required></p>
+	<p class="dados">Confirmar Senha: <br>
+	<p><input type="password" name="senha2c" required ></p>
+	<p class="dados">Endereço: <br></p>
+	<p> <input type="text" name="end" required><br></p>
+	<p class="dados">CPF: <br></p>
+	<p><input type="text" name="cpf" required maxlength="11" minlength="11"><br></p>
+
+	<p><input type="submit" name="login" value="Cadastrar" onClick="validarSenha()"></p>
+	</form>
+</div>
+</body>
+</html>

@@ -1,0 +1,23 @@
+PRODUTOS
+codigoprod
+nomeprod
+imagemprod
+precoprod
+quantidadeprod
+
+VENDAS
+codigovenda
+codigoprod
+datavenda
+quantidadevenda
+
+CLIENTES
+codigousuario
+nome
+endereco
+cpf
+
+site tem que carregar todos os produtos pelo banco,mesnos os que nao tem em estoque
+UPDATE `produtos` SET `quantidadeprod` = '18' WHERE `produtos`.`codigoprod` = 3;
+<h1>Obrigado por comprar</h1>
+	<h2>Número de pedido: 587936</h2>

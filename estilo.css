@@ -1,0 +1,49 @@
+body{
+	background-image: url("imagens/background.jpg");
+}
+div{
+	background-color: #fff;
+	width: 900px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 1%;
+}
+#conteudo {
+	padding-bottom: 15%;
+}
+h1{
+	text-align: center;
+	
+
+}
+h2{
+	text-align: center;
+
+}
+.dados{
+	text-align: left;
+	margin-left: 41.5%;
+	font-size: 1.2em;
+
+}
+p:not(.user):not(.dados){
+	text-align: center;
+	font-size: 1.2em;
+}
+.user {
+	float:right;
+	font-weight: bold;
+	width: 100%;
+	text-align:right;
+}
+
+a:not(.sair){	
+	text-decoration: none;
+	color: #fff;
+	font-size: 1.5em;
+	background: #000;
+}
+.sair{
+	font-size: 1em;
+	color: #000;
+}
